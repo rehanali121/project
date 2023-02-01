@@ -1,0 +1,122 @@
+.about{
+	margin: 10px;
+	margin-top: 100px;
+	padding: 10px;
+}
+.about-content{
+	margin: 50px;
+	padding: 20px;
+	overflow: hidden;
+}
+.icon{
+	margin-left: 30px;
+	float: left;
+}
+.desc{	
+	margin-right: 80px;	
+	float: right;
+	text-align: left;
+}
+.desc p{
+	margin-top: 0;
+}
+
+/********************** background and environment ***************/
+.back{
+	padding: 20px;
+	margin:10px;
+	margin-top: 60px;
+	overflow: hidden;
+}
+.rcol{
+	float: right;	
+	padding: 20px;
+	width: 45%;
+
+}
+.lcol{
+	float: left;	
+	padding: 20px;
+	width: 45%;
+}
+
+/************ Our company page additionals End ************/
+/************ Services Page Additionals ***********************/
+.services{
+	padding: 10px;
+	margin: 40px;
+	margin-left: 45px;
+	text-align: center;
+	margin-top: 100px;
+	overflow: hidden;
+}
+.s-1{
+	float: left;	
+	color: #0099ff;
+	margin-right: 20px;
+}
+.unq-app{
+	margin:80px;
+	margin-top: 190px;
+	overflow: hidden;
+}
+.app-cont{
+	border:1px solid lightgray;
+	width: 45%;
+	float: left;
+	margin-bottom: 35px;
+}
+
+.partners{
+	padding: 20px;
+	margin:50px 50px 0px 50px;
+}
+.partners img{
+	margin:7px;
+}
+/**************** services area end *************/
+/***************** Contact Area start *************/
+.form{
+	margin:50px;
+	margin-top: 100px;
+	padding: 50px;
+	overflow: hidden;
+}
+.form-fields{
+	padding:50px;	
+	float: left;
+	width: 35%;
+}
+.form-desc{
+	padding: 50px;
+	float: right;
+	width: 35%;
+}
+.form input,textarea{
+	width: 100%;
+	padding: 10px;
+	margin: 20px;
+	outline: 0;
+	font-size: 17px;
+  	border-width: 0 0 1px;
+    border-color: lightgray;
+}
+.form input:focus ,textarea:focus{
+	border:1px solid lightgray;
+	border-color: #0099ff;
+}
+.form button{
+	float: right;
+	background-color: 	#ff9999;
+	color: white;
+	padding: 15px 30px;
+	border:none;	
+	font-size: 20px
+}
+.map{
+	padding: 10px;
+	margin:0px 50px;
+}
+.form button:hover{
+	background-color: #ff6666;
+}

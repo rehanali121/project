@@ -1,0 +1,126 @@
+body{
+	font-family: 'Open Sans', Arial, sans-serif;
+	background-color: lightgray;
+	margin: 0;
+	padding: 0;
+}
+.main-container{
+	margin: 0px 100px;
+	color: gray;	
+	overflow: hidden;
+	background-color: white;	
+}
+.header{
+	padding: 40px;
+	overflow: hidden;
+	padding-bottom: 20px;
+}
+.header h1{
+	float: left;
+}
+.navbar{
+	padding: 24px;
+	margin-top: 15px;
+	float: right;
+	border:1px dotted gray;
+}
+.navbar ul{
+	list-style-type: none;
+	
+}
+.navbar ul li{
+	float: left;
+}
+.navbar ul li a{
+	text-decoration: none;	
+	transition: all 0.3s ease; 	
+	margin: 10px;
+	padding: 20px;
+	font-size: 20px;
+	color: gray;
+	border-bottom: 5px solid transparent;
+}
+.navbar ul li a:hover{
+	border-bottom:5px solid #0099ff;
+	color: black;
+}
+.active{ 
+	color: black;
+}
+.welcome{
+	padding: 20px;
+	margin-top: 60px;
+	clear: both;
+	overflow: hidden;
+}
+
+/********* Coloums : Welcome *************/
+.right-col{
+	padding: 10px;
+	width: 45%;
+	float: left;
+}
+.welcome-content{
+	overflow: hidden;
+	margin-bottom: 70px;
+}
+.welcome-content img{
+	float: left;
+}
+.pic-desc{
+	float: right;
+	width: 180px;
+}
+.pic-desc h2{
+	color: black;
+	margin-top: 0;
+}
+/************* Left Column **************/
+.left-col{
+	padding: 10px;
+	width: 45%;
+	float: right;
+}
+
+
+/*************** Others ****************/
+.others{
+	padding: 20px;
+	background-color: white;
+}
+.others-col{
+	border:1px dotted gray;
+	width: 24%;
+	float: left;
+	margin: 20px;
+	padding: 30px;
+}
+.others-col button{
+	padding: 15px;
+	color: white;
+	float: right;
+	width: 150px;
+	font-size: 18px;
+	background-color: #ff9999;
+	border:none;
+	border-radius: 3px;
+}
+
+/****************** Carousel Items ********************/
+.carousel{
+	background-color: white;
+	overflow: hidden;
+	clear: both;
+	padding: 30px;
+}
+button:hover{
+	background-color: #ff6666;
+}
+
+.gallery{
+	padding: 30px;
+	margin-top: 50px;
+}
+.gallery img{
+	margin-left: 50px;
+}
